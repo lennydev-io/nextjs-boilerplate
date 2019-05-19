@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a robust nextjs boilerplate to get you started with your front-end development and deployment real quick. It's open source, documented and easy to use.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lenny Méndez Rivera <info@lennydev.io>",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dotenv": "^8.0.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.8.6",
+    "react-typography": "^0.16.19",
+    "styled-components": "^4.2.0",
+    "typography": "^0.16.19",
+    "webpack": "^4.31.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@symfony/webpack-encore": "^0.24.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-styled-components": "^1.10.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.0.1",
+    "file": "^0.2.2",
+    "preact": "^8.4.2",
+    "system": "^2.0.1"
+  }
+}
